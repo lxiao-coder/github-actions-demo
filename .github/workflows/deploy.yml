@@ -13,7 +13,5 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-]
       - name: Terraform try
         run: echo "Deploying ${{ inputs.environment }}"
